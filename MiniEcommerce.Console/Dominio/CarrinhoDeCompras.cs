@@ -32,4 +32,6 @@ public class CarrinhoDeCompras
     }
 
     public decimal Subtotal() => _itens.Sum(i => i.Subtotal());
+
+    public void Limpar() => _itens.Clear();
 }
